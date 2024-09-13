@@ -1,44 +1,44 @@
-<html></html>
-    <head>
-        <title>Login</title>
-    </head>
-    <body>
-        <fieldset id="fieldset1">
-            <legend>  Szczegoly konta:  </legend>
-                <label  for="name">Imie:</label>
-                    <input type="text" name="name" id="name">
-                        <br/>
-                <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
-        </fieldset>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <fieldset id="fieldset1">
+        <legend>Szczegóły konta:</legend>
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name">
+        <br/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </fieldset>
 
-        <fieldset id="fieldset2">
-            <legend>Kilka informacji o tobie</legend>
-            <label for source>Skad dowiedziales sie o nas:</label>
-            <select id="source">
-                <option value="google">Google</option>
-                <option value="news">News </option>
-                <option value="pornhub">Pornhub</option>
-            </select>
-            <p>Czy odwiedzisz nas ponownie?
-                <input type="radio" name="check" value="tak">
-                        <label for="tak">Tak</label>        
-                <input type="radio" name="check" value="nie">
-                        <label for="nie">Nie</label>
-                <input type="radio" name="check" value="moze">
-                        <label for="moze">Moze</label>
-            </p>
-            <p>Komentarz:
-                    <br/>
-                <textarea name="koment" id="koment" cols="40" rows="4" > </textarea>
-            </p>
-            <label for="info">Chcesz byc informowany o aktualizacjach?</label>
-                <input type="checkbox" name="info">
-                <br/>
-                <input type="submit" value="Przeszlij">
-                </fieldset>
-                <br/>
-                <iframe src="https://maps.app.goo.gl/VgCSKEhYacGobsbz7" width="400"  height="400"></iframe>
-                
-    </body>
+    <fieldset id="fieldset2">
+        <legend>Kilka informacji o tobie</legend>
+        <label for="source">Skąd dowiedziałeś się o nas:</label>
+        <select id="source">
+            <option value="google">Google</option>
+            <option value="news">News</option>
+            <option value="pornhub">Pornhub</option>
+        </select>
+        <p>Czy odwiedzisz nas ponownie?
+            <input type="radio" name="check" value="tak" id="tak">
+            <label for="tak">Tak</label>        
+            <input type="radio" name="check" value="nie" id="nie">
+            <label for="nie">Nie</label>
+            <input type="radio" name="check" value="moze" id="moze">
+            <label for="moze">Może</label>
+        </p>
+        <p>Komentarz:
+            <br/>
+            <textarea name="koment" id="koment" cols="40" rows="4"></textarea>
+        </p>
+        <label for="info">Chcesz być informowany o aktualizacjach?</label>
+        <input type="checkbox" name="info" id="info">
+        <br/>
+        <input type="submit" value="Prześlij">
+    </fieldset>
+    <br/>
+    <iframe src="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" width="1000" height="400"></iframe>
+</body>
 </html>
